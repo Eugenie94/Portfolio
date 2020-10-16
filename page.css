@@ -1,0 +1,120 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.navbar-item, a.navbar-link {
+    font-size: 19px;
+}
+
+
+                                        /* DEBUT PAGE INDEX */
+
+.imagefond {
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    z-index: 10;
+}   
+
+
+.fondimagetexte {               /* RELATIF A TOUTES LES PAGES */
+    position: relative;
+    min-height: 400px;
+    margin:0 auto;
+}
+
+
+
+.fondimage {
+    position: relative;
+    z-index: 1;
+}
+
+.texte {
+    position: absolute;
+    top: 300px; 
+    right: 200px; 
+    z-index: 2;
+    font-size:200%;
+    color: black;
+}
+
+.texte:hover {
+    transition: all 0.5s ease 0s;
+    color: rgb(71, 71, 71);
+}
+
+h1 {
+    font-family: roboto;
+    font-size: 70px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+
+h2 {
+    font-family: monospace;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.phrasequalite {
+    position: absolute;
+    top: 770px; 
+    left: 320px;
+    z-index: 2;
+    font-family: monospace;
+    font-size: 55px;
+    color: rgb(255, 25, 64);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 190px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 62, 92);
+    font-size: 30px;
+    margin-top: -10px;
+    padding-bottom: 100px;
+}
+
+                                        /* FIN PAGE INDEX */
+
+                    
+
+
+
+.footer {
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 8;
+}
+
+.copyright {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+}
+
+.mention {
+    font-family: roboto;
+    margin-right: 50px;
+    color:  white;
+
+}

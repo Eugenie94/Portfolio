@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(82, 86, 89);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.navbar-item, a.navbar-link {
+    font-size: 19px;
+}
+
+
+                                        /* DEBUT PAGE INDEX */
+
+
+.fondimagetexte {               /* RELATIF A TOUTES LES PAGES */
+    position: relative;
+    min-height: 400px;
+    margin:0 auto;
+}
+
+
+h2 {
+    font-family: roboto;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(250, 57, 131);
+    margin-bottom: 50px;
+}
+
+iframe {
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+p {
+    font-family: roboto;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(82, 86, 89);
+    margin-top: -10px;
+    padding-bottom: 130px;
+}
+
+                                        /* FIN PAGE INDEX */
+
+                    
+
+
+
+.footer {
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 8;
+}
+
+.copyright {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+}
+
+.mention {
+    font-family: roboto;
+    margin-right: 50px;
+    color:  white;
+
+}
