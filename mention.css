@@ -1,0 +1,96 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.navbar-item,
+a.navbar-link {
+    font-size: 19px;
+}
+
+
+/* DEBUT PAGE INDEX */
+.imagefond {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+
+.fondimagetexte {
+    /* RELATIF A TOUTES LES PAGES */
+    position: relative;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.fondimage {
+    position: relative;
+    z-index: 1;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(245, 22, 108);
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(26, 24, 24);
+    padding-top: 10px;
+}
+
+.texte {
+    font-family: monospace;
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    margin-left: 15%;
+    font-size: 200%;
+}
+
+p {
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+.footer {
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 8;
+}
+
+.copyright {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+}
+
+.mention {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+
+}

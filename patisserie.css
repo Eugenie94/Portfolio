@@ -11,18 +11,19 @@
 
                                         /* DEBUT PAGE INDEX */
 
-.imagefond {
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
-    position: absolute;
-    max-width: 100%;
-    height: auto;
-    z-index: 10;
-}   
+
+.fondimagetexte {               /* RELATIF A TOUTES LES PAGES */
+    position: relative;
+    min-height: 400px;
+    margin:0 auto;
+}
 
 
+
+.fondimage {
+    position: relative;
+    z-index: 1;
+}
 
 .texte {
     position: absolute;
@@ -33,31 +34,13 @@
     color: black;
 }
 
-.texte:hover {
-    transition: all 0.5s ease 0s;
-    color: rgb(71, 71, 71);
+
+
+
+   
+.card {
+  top: 300px;
 }
-
-h1 {
-    font-family: roboto;
-    font-size: 70px;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-left: 50px;
-}
-
-
-h2 {
-    font-family: monospace;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-
-                                        /* FIN PAGE INDEX */
 
 
 
@@ -69,6 +52,7 @@ h2 {
     padding: 1%;
     z-index: 8;
 }
+
 
 .copyright {
     font-family: roboto;
