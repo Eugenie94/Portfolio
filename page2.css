@@ -1,0 +1,99 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.navbar-item, a.navbar-link {
+    font-size: 19px;
+}
+
+
+h1 {
+    font-family: roboto;
+    font-size: 45px;
+    color: rgb(245, 22, 108);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+h2{
+    font-family: roboto;
+    font-size: 35px;
+    color: rgb(245, 22, 108);
+    font-weight: bold;
+    margin-left: 3%;
+    padding-top: 10px;
+}
+
+
+.galeriiiie {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+
+.galerie:hover {            
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.galerie {   /* vitesse agrandissement photo */
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+
+.passion {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: rgb(65, 61, 62);
+    font-size: 28px;
+}
+p {
+    font-family: roboto;
+    margin-left: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(65, 61, 62);
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 8;
+}
+
+.footerchevauche {
+    position: relative;
+    min-height: 150px;
+    margin:0 auto;
+    width: 100%;
+  /* pour une question d'esthetique */
+}
+.copyright {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+}
+
+.mention {
+    font-family: roboto;
+    margin-right: 50px;
+    color:  white;
+
+}
