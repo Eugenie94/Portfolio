@@ -1,0 +1,155 @@
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.navbar-item,
+a.navbar-link {
+    font-size: 19px;
+}
+
+
+section {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.mailto {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.mailto:hover {
+    color: rgb(245, 22, 108);
+}
+
+.tell {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.tell:hover {
+    color: rgb(245, 22, 108);
+}
+
+span {
+    padding-top: 20px;
+}
+
+i {
+    margin-top: 7px;
+    font-size: 50px;
+    color: rgb(245, 22, 108);
+}
+
+strong {
+    font-family: roboto;
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-family: roboto;
+    font-size: 45px;
+    color: rgb(245, 22, 108);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.box {
+    
+    width: 30%;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 1%;
+    
+
+}
+
+.passion {
+    font-family: roboto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: rgb(65, 61, 62);
+    font-size: 28px;
+}
+
+.mail { 
+    margin-left: 30%;
+}
+
+.mailto {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+    margin-left: -20px;
+}
+
+.mailto:hover {
+    color: rgb(245, 22, 108);
+}
+
+.tel {
+    margin-left: 24%;
+}
+
+.tel1 {
+    margin-left: 15%;
+}
+
+.res {
+    margin-left: 20%;
+}
+
+.res1 {
+    margin-left: 17%;
+}
+
+.reseau {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.reseau:hover {
+    color: rgb(245, 22, 108);
+}
+span {
+    font-family: roboto;
+    color: rgb(65, 61, 62);
+    font-size: 20px;
+}
+
+
+.footer {
+    background-color: #363636;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 8;
+}
+
+.footerchevauche {
+    position: relative;
+    min-height: 200px;
+    margin:0 auto;
+    width: 100%;
+  /* pour une question d'esthetique */
+}
+
+.copyright {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+}
+
+.mention {
+    font-family: roboto;
+    margin-right: 50px;
+    color: white;
+
+}
