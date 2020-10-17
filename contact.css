@@ -32,22 +32,13 @@ strong {
     font-size: 22px;
 }
 
-h1 {
+h1, h2 {
     font-family: roboto;
     font-size: 45px;
     color: rgb(245, 22, 108);
     font-weight: bold;
     text-align: center;
     padding-top: 100px;
-}
-
-h2 {
-    font-family: roboto;
-    font-size: 35px;
-    color: rgb(245, 22, 108);
-    font-weight: bold;
-    margin-left: 3%;
-    padding-top: 10px;
 }
 
 
