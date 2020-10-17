@@ -27,6 +27,10 @@ i {
     color: rgb(245, 22, 108);
 }
 
+.reseau:hover {
+    color: rgb(245, 22, 108);
+    font-size: 100px;
+}
 strong {
     font-family: roboto;
     font-size: 22px;
