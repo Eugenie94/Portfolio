@@ -9,7 +9,7 @@
 }
 
 
-h1 {
+h1, h2 {
     font-family: roboto;
     font-size: 45px;
     color: rgb(245, 22, 108);
@@ -19,24 +19,14 @@ h1 {
     margin-bottom: 70px;
 }
 
-h2{
-    font-family: roboto;
-    font-size: 35px;
-    color: rgb(245, 22, 108);
-    font-weight: bold;
-    margin-left: 3%;
-    padding-top: 10px;
-}
 
 
 .galeriiiie {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1%;
 }
 
-.column {
-    padding: 1.5%;
-}
 
 .galerie:hover {            
     -webkit-transform: scale(1.1);
@@ -53,10 +43,23 @@ h2{
 
 .card {
     border-radius: 20px 20px 20px 20px;
-    border: solid rgb(236, 59, 127);
+    border: solid rgb(245, 22, 108);
+
 }
 
+.column {
+    padding: 1.5%;
+}
 
+p {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: rgb(65, 61, 62);
+    font-size: 28px;
+}
 
 .passion {
     font-family: roboto;
@@ -104,3 +107,4 @@ p {
     color:  white;
 
 }
+
