@@ -17,6 +17,24 @@ section {
     margin-left: 10%;
 }
 
+.mailto {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.mailto:hover {
+    color: rgb(245, 22, 108);
+}
+
+.tell {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.tell:hover {
+    color: rgb(245, 22, 108);
+}
+
 span {
     padding-top: 20px;
 }
@@ -65,12 +83,22 @@ h1, h2 {
     margin-left: 30%;
 }
 
+.mailto {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+    margin-left: -20px;
+}
+
+.mailto:hover {
+    color: rgb(245, 22, 108);
+}
+
 .tel {
-    margin-left: 27%;
+    margin-left: 24%;
 }
 
 .tel1 {
-    margin-left: 22%;
+    margin-left: 15%;
 }
 
 .res {
@@ -81,6 +109,14 @@ h1, h2 {
     margin-left: 17%;
 }
 
+.reseau {
+    text-transform: none;
+    color: rgb(65, 61, 62);
+}
+
+.reseau:hover {
+    color: rgb(245, 22, 108);
+}
 span {
     font-family: roboto;
     color: rgb(65, 61, 62);
