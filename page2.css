@@ -61,6 +61,17 @@ p {
     font-size: 28px;
 }
 
+.ctation {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: rgb(245, 22, 108);
+    font-size: 28px;
+    margin-top: -40px;
+}
+
 .passion {
     font-family: roboto;
     text-align: center;
