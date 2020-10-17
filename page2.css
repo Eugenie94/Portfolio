@@ -49,7 +49,15 @@ h2{
     transition: .3s ease-in-out;
 }
 
+.card {
+    border-radius: 20px 20px 20px 20px;
+    border: solid rgb(245, 22, 108);
 
+}
+
+.column {
+    padding: 1.5%;
+}
 
 .passion {
     font-family: roboto;
