@@ -49,6 +49,11 @@ p {
     font-size: 20px;
 }
 
+.card {
+        border-radius: 20px 20px 20px 20px;
+        border: solid  rgb(236, 59, 127);
+    }
+    
 .galeriiiie {
     display: flex;
     justify-content: space-around;
