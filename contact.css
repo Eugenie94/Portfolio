@@ -1,13 +1,36 @@
+
+
 .navbar {
     position: fixed;
     width: 100%;
     padding: 0.5%;
 }
 
-.navbar-item, a.navbar-link {
+.navbar-item,
+a.navbar-link {
     font-size: 19px;
 }
 
+
+section {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+span {
+    padding-top: 20px;
+}
+
+i {
+    margin-top: 7px;
+    font-size: 50px;
+    color: rgb(245, 22, 108);
+}
+
+strong {
+    font-family: roboto;
+    font-size: 22px;
+}
 
 h1 {
     font-family: roboto;
@@ -18,7 +41,7 @@ h1 {
     padding-top: 100px;
 }
 
-h2{
+h2 {
     font-family: roboto;
     font-size: 35px;
     color: rgb(245, 22, 108);
@@ -27,47 +50,52 @@ h2{
     padding-top: 10px;
 }
 
-.column {
-    margin-bottom: 50px;
+
+.box {
+    
+    width: 30%;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 1%;
+    
+
 }
 
 .passion {
     font-family: roboto;
     text-align: center;
-    font-weight: bold;
     margin-top: 70px;
     margin-bottom: 100px;
     color: rgb(65, 61, 62);
     font-size: 28px;
 }
-p {
+
+.mail { 
+    margin-left: 30%;
+}
+
+.tel {
+    margin-left: 27%;
+}
+
+.tel1 {
+    margin-left: 22%;
+}
+
+.res {
+    margin-left: 20%;
+}
+
+.res1 {
+    margin-left: 17%;
+}
+
+span {
     font-family: roboto;
-    margin-left: 1.5%;
-    margin-top: 20px;
-    margin-bottom: 40px;
     color: rgb(65, 61, 62);
     font-size: 20px;
 }
 
-.galeriiiie {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
-}
-
-.galerie:hover {            
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.galerie {   /* vitesse agrandissement photo */
-    
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
 
 .footer {
     background-color: #363636;
@@ -80,7 +108,7 @@ p {
 
 .footerchevauche {
     position: relative;
-    min-height: 150px;
+    min-height: 200px;
     margin:0 auto;
     width: 100%;
   /* pour une question d'esthetique */
@@ -95,6 +123,6 @@ p {
 .mention {
     font-family: roboto;
     margin-right: 50px;
-    color:  white;
+    color: white;
 
 }

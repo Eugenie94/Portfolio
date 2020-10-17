@@ -16,6 +16,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     padding-top: 100px;
+    margin-bottom: 70px;
 }
 
 h2{
@@ -27,9 +28,28 @@ h2{
     padding-top: 10px;
 }
 
-.column {
-    margin-bottom: 50px;
+
+.galeriiiie {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
 }
+
+
+.galerie:hover {            
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.galerie {   /* vitesse agrandissement photo */
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
 
 .passion {
     font-family: roboto;
@@ -49,26 +69,6 @@ p {
     font-size: 20px;
 }
 
-.galeriiiie {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0.3%;
-    margin-right: 0.3%;
-}
-
-.galerie:hover {            
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.galerie {   /* vitesse agrandissement photo */
-    
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
 .footer {
     background-color: #363636;
     position: absolute;
@@ -85,7 +85,6 @@ p {
     width: 100%;
   /* pour une question d'esthetique */
 }
-
 .copyright {
     font-family: roboto;
     margin-right: 50px;

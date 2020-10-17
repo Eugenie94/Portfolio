@@ -9,40 +9,62 @@
 }
 
 
-                                        /* DEBUT PAGE INDEX */
+h1 {
+    font-family: roboto;
+    font-size: 45px;
+    color: rgb(245, 22, 108);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
 
+h2{
+    font-family: roboto;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(245, 22, 108);
+    font-weight: bold;
+    padding-top: 10px;
+}
 
-.fondimagetexte {               /* RELATIF A TOUTES LES PAGES */
-    position: relative;
-    min-height: 400px;
-    margin:0 auto;
+.column {
+    margin-bottom: 50px;
+}
+
+.passion {
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: rgb(65, 61, 62);
+    font-size: 28px;
+}
+p {
+    font-family: roboto;
+    margin-left: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(65, 61, 62);
+    font-size: 20px;
 }
 
 
-
-.fondimage {
-    position: relative;
-    z-index: 1;
+.galerie:hover {            
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.texte {
-    position: absolute;
-    top: 300px; 
-    right: 200px; 
-    z-index: 2;
-    font-size:200%;
-    color: black;
+.galerie {   /* vitesse agrandissement photo */
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-right: auto;
+    margin-left: auto;
+
 }
-
-
-
-
-   
-.card {
-  top: 300px;
-}
-
-
 
 .footer {
     background-color: #363636;
@@ -53,7 +75,13 @@
     z-index: 8;
 }
 
-
+.footerchevauche {
+    position: relative;
+    min-height: 150px;
+    margin:0 auto;
+    width: 100%;
+  /* pour une question d'esthetique */
+}
 .copyright {
     font-family: roboto;
     margin-right: 50px;

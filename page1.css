@@ -1,25 +1,23 @@
-body {
-    background-color: rgb(82, 86, 89);
-}
-
 .navbar {
     position: fixed;
     width: 100%;
     padding: 0.5%;
 }
 
-.navbar-item, a.navbar-link {
+.navbar-item,
+a.navbar-link {
     font-size: 19px;
 }
 
 
-                                        /* DEBUT PAGE INDEX */
+/* DEBUT PAGE INDEX */
 
 
-.fondimagetexte {               /* RELATIF A TOUTES LES PAGES */
+.fondimagetexte {
+    /* RELATIF A TOUTES LES PAGES */
     position: relative;
     min-height: 400px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
@@ -39,20 +37,27 @@ iframe {
 
 p {
     font-family: roboto;
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    color: white;
+    color: rgb(250, 57, 131);
     font-size: 25px;
-    background-color: rgb(82, 86, 89);
     margin-top: -10px;
     padding-bottom: 130px;
 }
 
-                                        /* FIN PAGE INDEX */
-
-                    
+/* FIN PAGE INDEX */
 
 
+
+
+.footerchevauche {
+    position: relative;
+    min-height: 150px;
+    margin: 0 auto;
+    width: 100%;
+    /* pour une question d'esthetique */
+}
 
 .footer {
     background-color: #363636;
@@ -72,6 +77,6 @@ p {
 .mention {
     font-family: roboto;
     margin-right: 50px;
-    color:  white;
+    color: white;
 
 }
