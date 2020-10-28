@@ -4,91 +4,62 @@
     padding: 0.5%;
 }
 
-.navbar-item, a.navbar-link {
+.navbar-item,
+a.navbar-link {
     font-size: 19px;
 }
 
 
-h1, h2 {
+/* DEBUT PAGE INDEX */
+
+
+.fondimagetexte {
+    /* RELATIF A TOUTES LES PAGES */
+    position: relative;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.ldm {
+    margin-top: -150px;
+}
+
+h2 {
     font-family: roboto;
+    text-align: center;
     font-size: 45px;
-    color: rgb(245, 22, 108);
-    font-weight: bold;
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom: 70px;
+    color: rgb(250, 57, 131);
+    margin-bottom: 50px;
 }
 
-
-
-.galeriiiie {
-    display: flex;
-    justify-content: space-between;
-    margin: 1%;
+iframe {
+    padding-top: 70px;
+    margin-bottom: 100px;
 }
 
-
-.galerie:hover {            
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.galerie {   /* vitesse agrandissement photo */
-    
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.card {
-    border-radius: 20px 20px 20px 20px;
-    border: solid rgb(245, 22, 108);
-
-}
-
-.column {
-    padding: 1.5%;
-}
 
 p {
     font-family: roboto;
     text-align: center;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    color: rgb(65, 61, 62);
-    font-size: 28px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(250, 57, 131);
+    font-size: 25px;
+    margin-top: -10px;
+    padding-bottom: 130px;
 }
 
-.ctation {
-    font-family: roboto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    color: rgb(245, 22, 108);
-    font-size: 28px;
-    margin-top: -40px;
-    letter-spacing: 3px;
-}
+/* FIN PAGE INDEX */
 
-.passion {
-    font-family: roboto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    color: rgb(65, 61, 62);
-    font-size: 28px;
-}
-p {
-    font-family: roboto;
-    margin-left: 1.5%;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: rgb(65, 61, 62);
-    font-size: 20px;
+
+
+
+.footerchevauche {
+    position: relative;
+    min-height: 150px;
+    margin: 0 auto;
+    width: 100%;
+    /* pour une question d'esthetique */
 }
 
 .footer {
@@ -100,13 +71,6 @@ p {
     z-index: 8;
 }
 
-.footerchevauche {
-    position: relative;
-    min-height: 150px;
-    margin:0 auto;
-    width: 100%;
-  /* pour une question d'esthetique */
-}
 .copyright {
     font-family: roboto;
     margin-right: 50px;
@@ -116,6 +80,6 @@ p {
 .mention {
     font-family: roboto;
     margin-right: 50px;
-    color:  white;
+    color: white;
 
 }

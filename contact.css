@@ -1,5 +1,4 @@
 
-
 .navbar {
     position: fixed;
     width: 100%;
@@ -71,8 +70,6 @@ h1, h2 {
     display: inline-block;
     justify-content: space-around;
     margin: 1%;
-    
-
 }
 
 .passion {
