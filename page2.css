@@ -22,6 +22,7 @@ a.navbar-link {
 
 .ldm {
     margin-top: -150px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -54,23 +55,21 @@ p {
 
 
 
-.footerchevauche {
-    position: relative;
-    min-height: 150px;
-    margin: 0 auto;
-    width: 100%;
-    /* pour une question d'esthetique */
-}
-
 .footer {
     background-color: #363636;
     position: absolute;
-    bottom: 0;
     width: 100%;
     padding: 1%;
     z-index: 8;
 }
 
+.footerchevauche {
+    position: relative;
+    min-height: 150px;
+    margin:0 auto;
+    width: 100%;
+  /* pour une question d'esthetique */
+}
 .copyright {
     font-family: roboto;
     margin-right: 50px;
@@ -80,6 +79,6 @@ p {
 .mention {
     font-family: roboto;
     margin-right: 50px;
-    color: white;
+    color:  white;
 
 }

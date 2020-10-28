@@ -67,10 +67,14 @@ h1, h2 {
 .box {
     
     width: 30%;
-    display: inline-block;
-    justify-content: space-around;
-    margin: 1%;
 }
+
+.parentbox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
 
 .passion {
     font-family: roboto;
