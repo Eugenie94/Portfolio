@@ -34,10 +34,6 @@ section {
     color: rgb(245, 22, 108);
 }
 
-span {
-    padding-top: 20px;
-}
-
 i {
     margin-top: 7px;
     font-size: 50px;
@@ -65,7 +61,6 @@ h1, h2 {
 
 
 .box {
-    
     width: 30%;
 }
 
@@ -74,7 +69,6 @@ h1, h2 {
         justify-content: space-around;
         align-items: center;
 }
-
 
 .passion {
     font-family: roboto;
@@ -159,5 +153,4 @@ span {
     margin-right: 50px;
     color: white;
     font-size: 16px;
-
 }
