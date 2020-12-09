@@ -5,7 +5,9 @@
 }
 
 .navbar-item, a.navbar-link {
-    font-size: 19px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -14,7 +16,7 @@
 .imagefond {
     background-position: center center; 
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-attachment: fixetext-td; 
     background-size: cover; 
     position: absolute;
     max-width: 100%;
@@ -38,7 +40,7 @@
 
 .texte {
     position: absolute;
-    top: 300px; 
+    top: -100px; 
     right: 200px; 
     z-index: 2;
     font-size:200%;
