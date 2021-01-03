@@ -11,7 +11,7 @@ particlesJS("particles-js", {"particles":{"number":{"value":82,"density":{"enabl
 
 /* CODE TEXTILATE */
 $( function ( ) { 
-    $('.titre').textillate({
+    $('.tx').textillate({
 // //     /* voir plus tard ce que c'est
         minDisplayTime: 2000,  
   
