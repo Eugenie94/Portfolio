@@ -1705,7 +1705,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
         left: 26%;
     }
     .sous-titre {
-        font-size: 2.8vh;
+        font-size: 3.2vh;
         left: 13%;
         font-weight: bold;
     }
@@ -1970,17 +1970,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 3vh;
-        left: 22%;
+        left: 20%;
     }
     .sous-titre {
-        font-size: 2.5vh;
+        font-size: 2.2vh;
         left: 11%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 1.7vh;
-        left: 22%;      
+        left: 20%;      
     }
 }
 
