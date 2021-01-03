@@ -230,57 +230,63 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
  @media screen and (min-width: 1700px) and (max-width: 1750px) {    
 
     .titre {
-        left: 40%;
+        left: 49%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 41%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        left: 47%;      
     }
 }
 
  @media screen and (min-width: 1600px) and (max-width: 1700px) {    
 
     .titre {
-        left: 40%;
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {    
 
     .titre {
-        left: 40%;
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
 @media screen and (min-width: 1450px) and (max-width: 1500px) {    
 
-
     .titre {
-        left: 40%;
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
@@ -288,44 +294,49 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 @media screen and (min-width: 1420px) and (max-width: 1450px) {    
 
     .titre {
-        left: 40%;
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
 @media screen and (min-width: 1390px) and (max-width: 1420px) {    
 
     .titre {
-        left: 40%;
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 } 
 
 
 @media screen and (min-width: 1370px) and (max-width: 1390px) {    
 
-
-    .titre {
-        left: 40%;
+   .titre {
+        left: 45%;
     }
     .sous-titre {
-        left: 27%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        left: 36%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
@@ -333,16 +344,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 @media screen and (min-width: 1340px) and (max-width: 1370px) {    
 
     .titre {
-        left: 29%;
+        left: 45%;
     }
     .sous-titre {
-        font-size: 6.7vh;
-        left: 10%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
         font-size: 4.7vh;
-        left: 27%;      
+        left: 43.5%;      
     }
 }
 
@@ -354,17 +365,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 6.4vh;
-        left: 29%;
+        left: 45%;
     }
     .sous-titre {
-        font-size: 6.3vh;
-        left: 10%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        font-size: 4.3vh;
-        left: 29%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
@@ -375,17 +385,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 6.4vh;
-        left: 28%;
+        left: 45%;
     }
     .sous-titre {
-        font-size: 5.9vh;
-        left: 12%;
+        font-size: 6vh;
+        left: 38%;
     }
                 
     .phrase-qualite {
-        font-size: 3.9vh;
-        left: 30%;      
+        font-size: 4.7vh;
+        left: 43.5%;      
     }
 }
 
@@ -401,18 +410,18 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 6.3vh;
-        left: 28%;
+        left: 41%;
     }
     .sous-titre {
-        font-size: 5.6vh;
-        left: 12%;
+        font-size: 6vh;
+        left: 32%;
     }
                 
     .phrase-qualite {
-        font-size: 3.6vh;
-        left: 30%;      
+        font-size: 4.7vh;
+        left: 39%;      
     }
+
 }
 
 
@@ -425,19 +434,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     .nav-link, .dropdown-item  {        
         font-size: 2.4vh;
     }
-
     .titre {
-        font-size: 6vh;
-        left: 28%;
+        left: 41%;
     }
     .sous-titre {
-        font-size: 5.3vh;
-        left: 14%;
+        font-size: 6vh;
+        left: 32%;
     }
                 
     .phrase-qualite {
-        font-size: 3.3vh;
-        left: 30%;      
+        font-size: 4.7vh;
+        left: 39%;      
     }
 } 
 
@@ -452,17 +459,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 5.7vh;
-        left: 28%;
+        font-size: 5.8vh;
+        left: 41%;
     }
     .sous-titre {
-        font-size: 5vh;
-        left: 14%;
+        font-size: 5.2vh;
+        left: 32%;
     }
                 
     .phrase-qualite {
-        font-size: 3vh;
-        left: 31%;      
+        font-size: 3.2vh;
+        left: 43%;      
     }
 }
 
@@ -478,16 +485,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.7vh;
-        left: 28%;
+        left: 41%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 12.3%;
+        left: 32%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 31%;      
+        left: 43%;      
     }
 }
 
@@ -503,16 +510,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.7vh;
-        left: 27%;
+        left: 40%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 12%;
+        left: 31%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 30%;      
+        left: 42%;      
     }
 }
 
@@ -525,19 +532,19 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     .nav-link, .dropdown-item  {        
         font-size: 2.3vh;
     }
-
+   
     .titre {
         font-size: 5.7vh;
-        left: 27%;
+        left: 40%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 9%;
+        left: 31%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 29%;      
+        left: 42%;      
     }
 }
 
@@ -553,16 +560,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.7vh;
-        left: 26.5%;
+        left: 40%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 9%;
+        left: 31%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 28%;      
+        left: 42%;      
     }
 }
 
@@ -578,16 +585,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.7vh;
-        left: 26.5%;
+        left: 40%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 9%;
+        left: 31%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 28%;      
+        left: 42%;      
     }
 }
 
@@ -603,16 +610,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 26.5%;
+        left: 38%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 9%;
+        left: 29%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 28%;      
+        left: 40%;      
     }
 }
 
@@ -628,16 +635,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 26.5%;
+        left: 38%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 7%;
+        left: 29%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 28%;      
+        left: 40%;      
     }
 }
 
@@ -653,16 +660,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 26.5%;
+        left: 38%;
     }
     .sous-titre {
         font-size: 5vh;
-        left: 5.5%;
+        left: 29%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 28%;      
+        left: 40%;      
     }
 }
 
@@ -679,16 +686,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 26%;
+        left: 38%;
     }
     .sous-titre {
-        font-size: 4.9vh;
-        left: 5.2%;
+        font-size: 5vh;
+        left: 29%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 27%;      
+        left: 40%;      
     }
 }
 
@@ -703,18 +710,18 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
         font-size: 2.3vh;
     }
 
-    .titre {
+       .titre {
         font-size: 5.3vh;
-        left: 26%;
+        left: 38%;
     }
     .sous-titre {
-        font-size: 4.9vh;
-        left: 4.8%;
+        font-size: 5vh;
+        left: 29%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 27%;      
+        left: 40%;      
     }
 }
 
@@ -730,16 +737,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 26%;
+        left: 34%;
     }
     .sous-titre {
-        font-size: 4.9vh;
-        left: 4.2%;
+        font-size: 5vh;
+        left: 24%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 27%;      
+        left: 35%;      
     }
 }
 
@@ -756,16 +763,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5.3vh;
-        left: 25%;
+        left: 34%;
     }
     .sous-titre {
-        font-size: 4.9vh;
-        left: 3.6%;
+        font-size: 5vh;
+        left: 24%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 26%;      
+        left: 35%;      
     }
 }
 
@@ -782,17 +789,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 5vh;
-        left: 26%;
+        font-size: 5.3vh;
+        left: 34%;
     }
     .sous-titre {
-        font-size: 4.9vh;
-        left: 3.4%;
+        font-size: 5vh;
+        left: 24%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 26%;      
+        left: 35%;      
     }
 }
 
@@ -808,17 +815,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 5vh;
-        left: 25%;
+        font-size: 5.3vh;
+        left: 34%;
     }
     .sous-titre {
-        font-size: 4.8vh;
-        left: 3.8%;
+        font-size: 5vh;
+        left: 24%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 24%;      
+        left: 35%;      
     }
 }
 
@@ -834,16 +841,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 5vh;
-        left: 26%;
+        left: 30%;
     }
     .sous-titre {
         font-size: 4.8vh;
-        left: 3%;
+        left: 20%;
     }
                 
     .phrase-qualite {
         font-size: 3vh;
-        left: 26%;      
+        left: 30%;      
     }
 }
 
@@ -859,16 +866,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 26%;
+        left: 29%;
     }
     .sous-titre {
         font-size: 4.5vh;
-        left: 4.5%;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 26%;      
+        left: 29%;      
     }
 }
 
@@ -884,16 +891,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 25%;
+        left: 29%;
     }
     .sous-titre {
         font-size: 4.5vh;
-        left: 4.5%;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 26%;      
+        left: 29%;      
     }
 }
 
@@ -909,16 +916,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 24%;
+        left: 29%;
     }
     .sous-titre {
         font-size: 4.5vh;
-        left: 3.6%;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 25%;      
+        left: 29%;      
     }
 }
 
@@ -934,16 +941,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 24%;
+        left: 29%;
     }
     .sous-titre {
         font-size: 4.5vh;
-        left: 2.7%;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 25%;      
+        left: 29%;      
     }
 }
 
@@ -960,16 +967,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 24%;
+        left: 29%;
     }
     .sous-titre {
-        font-size: 4.4vh;
-        left: 3%;
+        font-size: 4.5vh;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 25%;      
+        left: 29%;      
     }
 }
 
@@ -985,16 +992,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.7vh;
-        left: 23%;
+        left: 29%;
     }
     .sous-titre {
-        font-size: 4.4vh;
-        left: 2.5%;
+        font-size: 4.5vh;
+        left: 19%;
     }
                 
     .phrase-qualite {
         font-size: 2.8vh;
-        left: 25%;      
+        left: 29%;      
     }
 }
 
@@ -1010,16 +1017,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 24%;
+        left: 27%;
     }
     .sous-titre {
         font-size: 4.2vh;
-        left: 4%;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 26%;      
+        left: 27%;      
     }
 }
 
@@ -1036,16 +1043,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 27%;
     }
     .sous-titre {
-        font-size: 4vh;
-        left: 6%;
+        font-size: 4.2vh;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 25%;      
+        left: 27%;      
     }
 }
 
@@ -1062,16 +1069,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 27%;
     }
     .sous-titre {
         font-size: 4vh;
-        left: 6%;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 25%;      
+        left: 27%;      
     }
 }
 
@@ -1088,16 +1095,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 27%;
     }
     .sous-titre {
         font-size: 4vh;
-        left: 5%;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 24.5%;      
+        left: 27%;      
     }
 }
 
@@ -1113,16 +1120,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 27%;
     }
     .sous-titre {
         font-size: 4vh;
-        left: 4%;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 24.5%;      
+        left: 27%;      
     }
 }
 
@@ -1138,16 +1145,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 27%;
     }
     .sous-titre {
         font-size: 4vh;
-        left: 3%;
+        left: 17%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 24.5%;      
+        left: 27%;      
     }
 }
 
@@ -1163,16 +1170,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.5vh;
-        left: 23%;
+        left: 25%;
     }
     .sous-titre {
         font-size: 3.9vh;
-        left: 3%;
+        left: 15%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 24.5%;      
+        left: 25%;      
     }
 }
 
@@ -1188,16 +1195,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.4vh;
-        left: 22%;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3.7vh;
-        left: 6%;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 23%;      
+        left: 25%;      
     }
 }
 
@@ -1213,16 +1220,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 4.4vh;
-        left: 22%;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3.7vh;
-        left: 5%;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 23%;      
+        left: 25%;      
     }
 }
 
@@ -1237,17 +1244,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 4.3vh;
-        left: 22%;
+        font-size: 4.4vh;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3.7vh;
-        left: 4%;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 22%;      
+        left: 25%;      
     }
 }
 
@@ -1262,17 +1269,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 4.3vh;
-        left: 21%;
+        font-size: 4.4vh;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3.7vh;
-        left: 3.5%;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 21%;      
+        left: 25%;      
     }
 }
 
@@ -1287,17 +1294,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
     .titre {
-        font-size: 4.3vh;
-        left: 20%;
+        font-size: 4.4vh;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3.7vh;
-        left: 2.3%;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 20%;      
+        left: 25%;      
     }
 }
 
@@ -1310,19 +1317,18 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     .nav-link, .dropdown-item  {        
         font-size: 2.3vh;
     }
-
     .titre {
-        font-size: 4vh;
-        left: 20%;
+        font-size: 4.4vh;
+        left: 24%;
     }
     .sous-titre {
-        font-size: 3.5vh;
-        left: 4%;
+        font-size: 3.7vh;
+        left: 14%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 20%;      
+        left: 25%;      
     }
 }
 
@@ -1343,12 +1349,12 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 3.3vh;
-        left: 6%;
+        left: 12%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 20.5%;      
+        left: 21%;      
     }
 }
 
@@ -1368,7 +1374,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 3.2vh;
-        left: 6%;
+        left: 12%;
     }
                 
     .phrase-qualite {
@@ -1393,7 +1399,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 3.2vh;
-        left: 5%;
+        left: 12%;
     }
                 
     .phrase-qualite {
@@ -1418,7 +1424,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 3.2vh;
-        left: 4%;
+        left: 11%;
     }
                 
     .phrase-qualite {
@@ -1444,7 +1450,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 3.1vh;
-        left: 3%;
+        left: 11%;
     }
                 
     .phrase-qualite {
@@ -1465,16 +1471,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 3.5vh;
-        left: 15%;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3vh;
-        left: 5%;
+        left: 11%;
     }
                 
     .phrase-qualite {
         font-size: 2.5vh;
-        left: 15%;      
+        left: 21%;      
     }
 }
 
@@ -1490,16 +1496,16 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 3.5vh;
-        left: 22%;
+        left: 24%;
     }
     .sous-titre {
         font-size: 3vh;
-        left: 4%;
+        left: 11%;
     }
                 
     .phrase-qualite {
         font-size: 2.3vh;
-        left: 20%;      
+        left: 21%;      
     }
 }
 
@@ -1519,7 +1525,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.9vh;
-        left: 4%;
+        left: 11%;
     }
                 
     .phrase-qualite {
@@ -1545,7 +1551,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.8vh;
-        left: 5%;
+        left: 11%;
     }
                 
     .phrase-qualite {
@@ -1571,12 +1577,12 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.8vh;
-        left: 4%;
+        left: 11%;
     }
                 
     .phrase-qualite {
         font-size: 2.2vh;
-        left: 15%;      
+        left: 19%;      
     }
 }
 
@@ -1597,13 +1603,13 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.7vh;
-        left: 5%;
+        left: 11%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2.2vh;
-        left: 14%;      
+        left: 20%;      
     }
 }
 
@@ -1624,13 +1630,13 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.6vh;
-        left: 6%;
+        left: 11%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 18%;      
+        left: 20%;      
     }
 }
 
@@ -1650,13 +1656,13 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
     .sous-titre {
         font-size: 2.6vh;
-        left: 5%;
+        left: 11%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 18%;      
+        left: 20%;      
     }
 }
 
@@ -1673,17 +1679,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 3.2vh;
-        left: 18%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.5vh;
-        left: 5%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 18%;      
+        left: 20%;      
     }
 }
 
@@ -1700,17 +1706,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 3.2vh;
-        left: 17%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.5vh;
-        left: 5%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 17%;      
+        left: 20%;      
     }
 }
 
@@ -1727,17 +1733,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 2.9vh;
-        left: 20%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.4vh;
-        left: 5%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 16%;      
+        left: 20%;      
     }
 }
 
@@ -1754,17 +1760,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 2.9vh;
-        left: 19%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.3vh;
-        left: 5.5%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 15%;      
+        left: 20%;      
     }
 }
 
@@ -1778,19 +1784,20 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
         font-size: 1.8vh;
     }
 
+   
     .titre {
         font-size: 2.9vh;
-        left: 20%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.2vh;
-        left: 7%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 16%;      
+        left: 20%;      
     }
 }
 
@@ -1807,17 +1814,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 2.9vh;
-        left: 18%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.2vh;
-        left: 6%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 14%;      
+        left: 20%;      
     }
 }
 
@@ -1834,17 +1841,17 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .titre {
         font-size: 2.9vh;
-        left: 18%;
+        left: 21%;
     }
     .sous-titre {
         font-size: 2.2vh;
-        left: 5%;
+        left: 13%;
         font-weight: bold;
     }
                 
     .phrase-qualite {
         font-size: 2vh;
-        left: 14%;      
+        left: 20%;      
     }
 }
 
