@@ -10,53 +10,53 @@ particlesJS("particles-js", {"particles":{"number":{"value":82,"density":{"enabl
 
 
 /* CODE TEXTILATE */
-// $( function ( ) { 
-// 	$('.titre').textillate({
-//     /* voir plus tard ce que c'est
-//     minDisplayTime: 2000, */ 
+$( function ( ) { 
+    $('.titre').textillate({
+// //     /* voir plus tard ce que c'est
+        minDisplayTime: 2000,  
   
-//     // temps avant que l'animation se lance
-//     initialDelay: 1000,
+// //     // temps avant que l'animation se lance
+        initialDelay: 1000,
   
-//     // obligé pour que l'animation se lance directement
-//     autoStart: true,
+// //     // obligé pour que l'animation se lance directement
+        autoStart: true,
   
-//     // in animation settings
-//     in: {
-//         // set the effect name
-//       effect: 'flipInX',
+// //     // in animation settings
+        in: {
+// //         // set the effect name
+        effect: 'flipInX',
   
-//       // temps les lettres apparaissent petit a petit
-//       delayScale: 2,
+// //       // temps les lettres apparaissent petit a petit
+        delayScale: 2,
 
-//       // pour que la couleur s'affiche directement
-//       color: true,
+// //       // pour que la couleur s'affiche directement
+        color: true,
   
-//       // set the delay between each character
-//       // delay: 50,
+    // set the delay between each character
+      // delay: 50,
   
-//       // reverse the character sequence
-//       // (note that reverse doesn't make sense with sync = true)
-//       sequence: true,
+// reverse the character sequence
+// (note that reverse doesn't make sense with sync = true)
+     sequence: true,
   
-//       // callback that executes once the animation has finished
-//       callback: function () {}
-//     },
+     // callback that executes once the animation has finished
+      callback: function () {}
+  },
   
-//  // out animation settings.
-// //  out: { l'animation OUT fonctionne mais je ne  veux pas que ca fasse une boucle a l'infini
-// //   effect: 'flipOutY',
-// //   delayScale: 1.5,
-// //   delay: 50,
-// //   shuffle: true,
-// //   callback: function () {}
-// // },
-// // loop: true,
-// // // callback that executes once textillate has finished
-// // callback: function () {},
+// //  // out animation settings.
+// // //  out: { l'animation OUT fonctionne mais je ne  veux pas que ca fasse une boucle a l'infini
+// // //   effect: 'flipOutY',
+// // //   delayScale: 1.5,
+// // //   delay: 50,
+// // //   shuffle: true,
+// // //   callback: function () {}
+// // // },
+// // // loop: true,
+// // // // callback that executes once textillate has finished
+// // // callback: function () {},
 
-// // set the type of token to animate (available types: 'char' and 'word')
-// type: 'char'
-// });
-// });
+// // // set the type of token to animate (available types: 'char' and 'word')
+type: 'char'
+});
+});
 
