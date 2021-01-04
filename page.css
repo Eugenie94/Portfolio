@@ -247,7 +247,7 @@ time, mark, audio, video {
   @media screen and (min-width: 200px) and (max-width: 737px) {     
 
     .parent1-texte { /* englobe mon petit parent */
-        padding-left: 0; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
+        padding-left: 0; /* pour supprimer le decalage en dessous de 737 et le recentrer */
     }
 
     .titre {
@@ -257,12 +257,12 @@ time, mark, audio, video {
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-weight: bold;
         font-size: 5.6vw;
-        padding-top: 10%;
+        padding-top: 12%;
     }
     
     .phrase-qualite {  /* phrase qualite */
-        padding-top: 10%;
         font-size: 3.7vw;
+        padding-top: 15%;
     }
     
 }
