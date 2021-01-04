@@ -251,18 +251,18 @@ time, mark, audio, video {
     }
 
     .titre {
-        font-size: 4.3vw;
+        font-size: 4.8vw;
     }
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-weight: bold;
-        font-size: 4.8vw;
+        font-size: 5.3vw;
         padding-top: 10%;
     }
     
     .phrase-qualite {  /* phrase qualite */
         padding-top: 10%;
-        font-size: 3.5vw;
+        font-size: 3.7vw;
     }
     
 }
