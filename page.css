@@ -244,7 +244,7 @@ time, mark, audio, video {
 
   /* DEBUT MEDIA QUERIES POUR TEXTE TX SUR PARTICLE */
 
-  @media screen and (min-width: 737px) and (max-width: 1200px) {     /* JUSQUA 1200 LE TEXTE EST CENTRER ET IL Y A DES MARGIN */
+  @media screen and (min-width: 848px) and (max-width: 1200px) {     /* JUSQUA 1200 LE TEXTE EST CENTRER ET IL Y A DES MARGIN */
 
     .parent1-texte { /* englobe mon petit parent */
         padding-left: 0; /* pour supprimer le decalage en dessous de 737 et le recentrer */
@@ -261,7 +261,7 @@ time, mark, audio, video {
 }
 
 
-@media screen and (min-width: 200px) and (max-width: 737px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
+@media screen and (min-width: 200px) and (max-width: 848px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
 
     
     .parent1-texte { /* englobe mon petit parent */
@@ -346,10 +346,22 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
     .copyright, .texte-footer {        /* copyright */
         display: block;
-        font-size: 1.8vh;
+        font-size: 1.7vh;
     }
 
 }
+
+@media screen and (min-width: 567px) and (max-width: 768px) { 
+
+    .copyright, .texte-footer {        /* copyright */
+        display: block;
+        font-size: 1.9vh;
+    }
+
+}
+
+
+
 
 /* FIN MEDIA QUERIES FOOTER */ 
                 /* FIN FOOTER */
