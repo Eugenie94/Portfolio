@@ -251,11 +251,11 @@ time, mark, audio, video {
     }
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
-        padding-top: 12%;
+        padding-top: 9%;
     }
     
     .phrase-qualite {  /* phrase qualite */
-        padding-top: 15%;
+        padding-top: 11%;
     }
     
 }
@@ -263,6 +263,7 @@ time, mark, audio, video {
 
 @media screen and (min-width: 200px) and (max-width: 737px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
 
+    
     .parent1-texte { /* englobe mon petit parent */
         padding-left: 0; /* pour supprimer le decalage en dessous de 737 et le recentrer */
     }
@@ -277,12 +278,12 @@ time, mark, audio, video {
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-size: 5.3vw;
-        padding-top: 6%;
+        padding-top: 12%;
     }
     
     .phrase-qualite {  /* phrase qualite */
         font-size: 3.7vw;
-        padding-top: 9%;
+        padding-top: 15%;
         
     }
     
