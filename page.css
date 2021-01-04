@@ -250,14 +250,19 @@ time, mark, audio, video {
         padding-left: 0; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
     }
 
+    .titre {
+        font-size: 4.1vw;
+    }
+
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 4.5vw;
         padding-top: 10%;
     }
     
     .phrase-qualite {  /* phrase qualite */
         padding-top: 10%;
+        font-size: 3.5vw;
     }
     
 }
