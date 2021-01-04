@@ -184,6 +184,7 @@ time, mark, audio, video {
     width: 100%;
     top: 30vh;
     padding-left: 30%; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
+    /* VOIR SI JE LAISSE 30% OU SI JE CENTRER A VERIFIER */
 }
 
 .parent-texte {  /* englobe mes span */
@@ -217,7 +218,7 @@ time, mark, audio, video {
     font-size: 2.3vw;
     color: white;
     letter-spacing: 7px;
-    padding-top: 9%;
+    padding-top: 6%;
 }
 
 .titre {
@@ -361,10 +362,9 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 }
 
 
-
-
-
 /* FIN MEDIA QUERIES FOOTER */ 
+
+
                 /* FIN FOOTER */
 
                 
