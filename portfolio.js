@@ -16,7 +16,7 @@ $( function ( ) {
         minDisplayTime: 2000,  
   
 // //     // temps avant que l'animation se lance
-        initialDelay: 1000,
+        initialDelay: 500, // initialDelay: 2000, avec pop up !
   
 // //     // obligé pour que l'animation se lance directement
         autoStart: true,

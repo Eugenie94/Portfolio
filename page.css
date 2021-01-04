@@ -183,7 +183,7 @@ time, mark, audio, video {
     vertical-align: middle;
     width: 100%;
     top: 30vh;
-   /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
+    padding-left: 30%; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
     /* VOIR SI JE LAISSE 30% OU SI JE CENTRER A VERIFIER */
 }
 
@@ -331,7 +331,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
 .fab, .far {            /* couleur pictogramme */
     color: #fb2ca2;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 @media screen and (max-width: 768px) {      /* en dessous de 768 les picto retrecisse */
