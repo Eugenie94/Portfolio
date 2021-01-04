@@ -182,7 +182,7 @@ time, mark, audio, video {
     position: absolute;
     vertical-align: middle;
     width: 100%;
-    top: 35vh;
+    top: 30vh;
     padding-left: 30%; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
 }
 
@@ -195,7 +195,7 @@ time, mark, audio, video {
 .titre { /* EUGENIE KHAYAT */
     font-family: roboto;
     /* font-size: 150%; */
-    font-size: 3.7vw;
+    font-size: 3.5vw;
     color: white;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -213,11 +213,10 @@ time, mark, audio, video {
 
 .phrase-qualite {  /* phrase qualite */
     font-family: roboto;
-    font-size: 2.6vw;
+    font-size: 2.3vw;
     color: white;
-    text-transform: uppercase;
     letter-spacing: 5px;
-    padding-top: 6%;
+    padding-top: 9%;
 }
 
 .titre {
@@ -244,10 +243,27 @@ time, mark, audio, video {
 
   /* DEBUT MEDIA QUERIES POUR TEXTE TX SUR PARTICLE */
 
-  @media screen and (min-width: 200px) and (max-width: 737px) {     
+  @media screen and (min-width: 200px) and (max-width: 1200px) {     /* JUSQUA 1200 LE TEXTE EST CENTRER ET IL Y A DES MARGIN */
 
     .parent1-texte { /* englobe mon petit parent */
         padding-left: 0; /* pour supprimer le decalage en dessous de 737 et le recentrer */
+    }
+
+    .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
+        padding-top: 12%;
+    }
+    
+    .phrase-qualite {  /* phrase qualite */
+        padding-top: 15%;
+    }
+    
+}
+
+
+  @media screen and (min-width: 200px) and (max-width: 737px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
+
+    .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
+        font-weight: bold;
     }
 
     .titre {
@@ -255,14 +271,11 @@ time, mark, audio, video {
     }
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
-        font-weight: bold;
         font-size: 5.3vw;
-        padding-top: 12%;
     }
     
     .phrase-qualite {  /* phrase qualite */
         font-size: 3.7vw;
-        padding-top: 15%;
     }
     
 }
