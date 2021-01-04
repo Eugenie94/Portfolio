@@ -290,6 +290,8 @@ time, mark, audio, video {
     
 }
 
+
+
   /* FIN MEDIA QUERIES POUR TEXTE TX SUR PARTICLE */
 
 
@@ -311,6 +313,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     margin-right: 0;
     margin-left: 0;
 }
+
 
 .copyright {        /* copyright */
     font-family: roboto;
