@@ -331,9 +331,6 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     color: white;
 }
 
-.pictogramme {
-    margin-top: 0.7%;
-}
 
 .fab, .far {            /* couleur pictogramme */
     color: #fb2ca2;
