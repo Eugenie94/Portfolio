@@ -298,18 +298,17 @@ time, mark, audio, video {
 
                 /* DEBUT FOOTER */
 
+                
+
 footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.parent-footer {
-    display: flex;
-    justify-content: space-around;
-}
 .row {      /*4 pour supprimer la margin-right -15px a droite */
     margin-right: 0;
+    margin-left: 0;
 }
 
 .copyright {        /* copyright */
@@ -328,6 +327,7 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     color: white;
 }
 
+
 .fab, .far {            /* couleur pictogramme */
     color: #fb2ca2;
     font-size: 2em;
@@ -340,7 +340,20 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
 }
 
+/* DEBUT MEDIA QUERIES FOOTER */
 
+@media screen and (min-width: 200px) and (max-width: 567px) { 
+
+    .copyright {        /* copyright */
+        display: block;
+    }
+    
+    .texte-footer {         /* mention legal et contact hover */
+        display: block;
+    }
+}
+
+/* FIN MEDIA QUERIES FOOTER */ 
                 /* FIN FOOTER */
 
                 
