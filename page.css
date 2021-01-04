@@ -344,13 +344,11 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
 
 @media screen and (min-width: 200px) and (max-width: 567px) { 
 
-    .copyright {        /* copyright */
+    .copyright, .texte-footer {        /* copyright */
         display: block;
+        font-size: 1.8vh;
     }
-    
-    .texte-footer {         /* mention legal et contact hover */
-        display: block;
-    }
+
 }
 
 /* FIN MEDIA QUERIES FOOTER */ 
