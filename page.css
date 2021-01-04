@@ -273,10 +273,13 @@ time, mark, audio, video {
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-size: 5.3vw;
+        padding-top: 6%;
     }
     
     .phrase-qualite {  /* phrase qualite */
         font-size: 3.7vw;
+        padding-top: 9%;
+        
     }
     
 }
@@ -296,6 +299,10 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     width: 100%;
 }
 
+.parent-footer {
+    display: flex;
+    justify-content: space-around;
+}
 .row {      /*4 pour supprimer la margin-right -15px a droite */
     margin-right: 0;
 }
@@ -327,24 +334,6 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
 }
-
-/* DEBUT MEDIA QUERIES POUR TEXTE FOOTER */
-
-
-@media screen and (min-width: 200px) and (max-width: 600px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
-
-    .copyright {        /* copyright */
-    font-size: 1vh;
-    }
-
-    .texte-footer {         /* mention legal et contact hover */
-    font-size: 1vh;
-    }
-    
-}
-
-
-/* FIN MEDIA QUERIES POUR TEXTE FOOTER */
 
 
                 /* FIN FOOTER */
