@@ -213,9 +213,10 @@ time, mark, audio, video {
 
 .phrase-qualite {  /* phrase qualite */
     font-family: roboto;
+     /* font-size: 150%; */
     font-size: 2.3vw;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     padding-top: 9%;
 }
 
@@ -260,7 +261,7 @@ time, mark, audio, video {
 }
 
 
-  @media screen and (min-width: 200px) and (max-width: 737px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
+@media screen and (min-width: 200px) and (max-width: 737px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
 
     .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
         font-weight: bold;
@@ -288,7 +289,6 @@ time, mark, audio, video {
 
 
                 /* DEBUT FOOTER */
-
 
 footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     position: absolute;
@@ -327,6 +327,25 @@ footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
     }
 
 }
+
+/* DEBUT MEDIA QUERIES POUR TEXTE FOOTER */
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {     /* JUSQUA 737 LES TAILLES DE MES TEXTE SONT GROSSI ET LE SOUS TITRE EST BOLD */
+
+    .copyright {        /* copyright */
+    font-size: 1vh;
+    }
+
+    .texte-footer {         /* mention legal et contact hover */
+    font-size: 1vh;
+    }
+    
+}
+
+
+/* FIN MEDIA QUERIES POUR TEXTE FOOTER */
+
 
                 /* FIN FOOTER */
 
