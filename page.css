@@ -141,10 +141,8 @@ time, mark, audio, video {
 
 }
 
-
-
-
 /* FIN MEDIA QUERIES POUR NAV LINK */
+
 
                 /* FIN MENU BOOTSTRAP */
 
@@ -244,6 +242,27 @@ time, mark, audio, video {
     50% { border-color: orange; }
   }
 
+  /* DEBUT MEDIA QUERIES POUR TEXTE TX SUR PARTICLE */
+
+  @media screen and (min-width: 200px) and (max-width: 737px) {     
+
+    .parent1-texte { /* englobe mon petit parent */
+        padding-left: 0; /* pour decaler vers la droite PADDING LEFT : NONE en dessous de 760 px par exemple */
+    }
+
+    .sous-titre {  /* DEVELOPPEUSE WEB FULLSTACK */
+        font-weight: bold;
+        font-size: 4vw;
+        padding-top: 10%;
+    }
+    
+    .phrase-qualite {  /* phrase qualite */
+        padding-top: 10%;
+    }
+    
+}
+
+  /* FIN MEDIA QUERIES POUR TEXTE TX SUR PARTICLE */
 
 
                 /* FIN CONTENU Z-INDEX SUR PARTICULE */

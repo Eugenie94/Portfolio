@@ -9,11 +9,17 @@
     text-transform: uppercase;
     letter-spacing: 6px;
 }
-/* 
-.titre:hover { /* EUGENIE KHAYAT SURVOL 
+
+
+.titre:hover {   /* EUGENIE KHAYAT SURVOL */
     transition: all 0.5s ease 0s;
     color: rgb(61, 61, 61);
-} */
+}
+
+.phrase-qualite:hover {   /*  phrase qualite survol */
+    transition: all 0.5s ease 0s;
+    color: rgb(61, 61, 61);
+} 
 
 
 .sous-titre {   /* integratrice développeuse web */
