@@ -40,6 +40,9 @@ time, mark, audio, video {
 
                 /* DEBUT MENU BOOTSTRAP */     
 
+.logo {
+    padding: 0;
+}
 
 .nav-link {         /*lien sans le survol */
     font-size: 2.8vh;
@@ -304,7 +307,7 @@ time, mark, audio, video {
                 
 
 footer {        /* POUR QUE MON FOOTER SOIT EN BAS */
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
