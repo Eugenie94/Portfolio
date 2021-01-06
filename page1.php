@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-                    <!-- DEBUT HEAD -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A propos de moi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/a3b3ad3be6.js" crossorigin="anonymous"></script>
+    <link href="page2.css" type="text/css" rel="stylesheet">
+  </head>
 
-<?php require 'head.php'; ?>
+  <body>
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="logo.png" width="152" height="28">
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="page1.html" class="navbar-item">
+          A propos de moi
+        </a>
 
-                    <!-- FIN HEAD -->
-<body>
+        <a href="page2.html" class="navbar-item">
+          Mes certificats
+        </a>
 
+        <a href="page3.html" class="navbar-item">
+          Mes créations
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Mes passions
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a href="page4.html" class="navbar-item">
+              Jeux vidéos
+            </a>
+            <a href="page5.html" class="navbar-item">
+              Pâtisserie
+            </a>
 
-                    <!-- DEBUT HEADER -->
-
-<?php require 'header.php'; ?>
-
-                    <!-- FIN HEADER -->
-
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="contact.html" class="button is-danger">
+              <strong>Contact</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div>
 
   <div class="fondimagetexte">
   <iframe src="CV_Développeuse_Web_Fullstack.pdf" width="100%" height="1300">
@@ -31,19 +83,12 @@
   </p>
   </div>
 
-
-                    <!-- DEBUT FOOTER-->
-
-<?php require 'footer.php'; ?>
-
-                    <!-- FIN FOOTER -->
-
-
-                    <!-- DEBUT SCRIPT JS BOOTSTRAP --> 
-                    
-<?php require 'script.php'; ?>
-
-                    <!-- FIN SCRIPT JS BOOTSTRAP -->
+ <footer class="footer">
+  <div class="content has-text-centered">
+    <span class="copyright"> © Copyright 2019-2020 / Eugénie KHAYAT</span>
+      <a href="mentionslegales.html"><span class="mention">Mentions légales</span></a>
+  </div>
+</footer>
 
   </body>
 </html>
