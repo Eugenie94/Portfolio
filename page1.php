@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+                    <!-- DEBUT HEAD -->
+
 <?php require 'head.php'; ?>
 
-  <body>
+                    <!-- FIN HEAD -->
+<body>
+
+
+                    <!-- DEBUT HEADER -->
 
 <?php require 'header.php'; ?>
+
+                    <!-- FIN HEADER -->
+
 
   <div class="fondimagetexte">
   <iframe src="CV_Développeuse_Web_Fullstack.pdf" width="100%" height="1300">
@@ -22,12 +31,19 @@
   </p>
   </div>
 
- <footer class="footer">
-  <div class="content has-text-centered">
-    <span class="copyright"> © Copyright 2019-2020 / Eugénie KHAYAT</span>
-      <a href="mentionslegales.html"><span class="mention">Mentions légales</span></a>
-  </div>
-</footer>
+
+                    <!-- DEBUT FOOTER-->
+
+<?php require 'footer.php'; ?>
+
+                    <!-- FIN FOOTER -->
+
+
+                    <!-- DEBUT SCRIPT JS BOOTSTRAP --> 
+                    
+<?php require 'script.php'; ?>
+
+                    <!-- FIN SCRIPT JS BOOTSTRAP -->
 
   </body>
 </html>

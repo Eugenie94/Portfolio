@@ -1,7 +1,7 @@
 
                     <!-- DEBUT FOOTER-->
 
-                    <footer class="text-center bg-dark p-1">
+<footer class="text-center bg-dark p-1">
 
 <div class="row justify-content-center p-1 copyright">
   <div class="col col-md-3 col-lg-2">
