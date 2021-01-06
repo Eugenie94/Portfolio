@@ -22,8 +22,12 @@
   </p>
   </div>
 
-
-<?php require 'footer.php'; ?>
+ <footer class="footer">
+  <div class="content has-text-centered">
+    <span class="copyright"> © Copyright 2019-2020 / Eugénie KHAYAT</span>
+      <a href="mentionslegales.html"><span class="mention">Mentions légales</span></a>
+  </div>
+</footer>
 
   </body>
 </html>
