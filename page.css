@@ -77,7 +77,7 @@ time, mark, audio, video {
     background-color: #fb2ca2;
 }
 
-@media screen and (min-width: 280px) and (max-width: 410px) { 
+@media screen and (min-width: 280px) and (max-width: 1100px) { 
     
     .btn-group-lg>.btn, .btn-lg  {        
         font-size: 0rem;
