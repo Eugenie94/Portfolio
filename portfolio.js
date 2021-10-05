@@ -1,4 +1,4 @@
-/* POP UP JS */
+/* POP UP JQUERY */
 $(document).ready(function() {
     $('#btn-click').click() 
   })
