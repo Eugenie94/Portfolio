@@ -18,7 +18,7 @@ Ce site a été réalisé avec les technologies & outils suivants :
 
 Url du Portfolio : https://eugeniekhayat.netlify.app/
 
------------------------------------- Aperçu de la page index du Portfolio version desktop ------------------------------------
+---------------------------------- Aperçu de la page index du Portfolio version desktop ----------------------------------
 
 ![img1](https://user-images.githubusercontent.com/58372973/141182730-a417f068-cf3c-4d6e-bbbf-7487bec3d952.png)
 
