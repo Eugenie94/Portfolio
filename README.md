@@ -23,6 +23,6 @@ Url du Portfolio : https://eugeniekhayat.netlify.app/
 ![img1](https://user-images.githubusercontent.com/58372973/141182730-a417f068-cf3c-4d6e-bbbf-7487bec3d952.png)
 
 
------------------------------------- Aperçu de la page index du Portfolio version mobile ------------------------------------
+----------------------------------- Aperçu de la page index du Portfolio version mobile -----------------------------------
 
 ![ezez](https://user-images.githubusercontent.com/58372973/141212392-8531134a-b724-40c5-aedd-ab51b5d1a5b5.png)
