@@ -16,7 +16,7 @@ Ce site a été réalisé avec les technologies & outils suivants :
 - GIT / GITHUB
 - NETLIFY
 
-
+Url du Portfolio : https://eugeniekhayat.netlify.app/
 
 ------------------------------------ Aperçu de la page index du Portfolio ------------------------------------
 
